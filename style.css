@@ -1,0 +1,76 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://images.pexels.com/photos/1028725/pexels-photo-1028725.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    
+}
+/*
+header{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+*/
+header{
+    width: 100%;
+    margin-top: 100px;
+    margin-left: -10px;
+}
+@media only screen and (max-width: 300px){
+header {
+    width: 167%;
+    margin-top: 50px;
+    margin-left: -92px;
+    /* margin-right: 75px; */
+}
+span{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+}
+@media only screen and (max-width: 375px){
+    header {
+        width: 125%;
+        margin-top: 100px;
+        margin-left: -47px;
+    }
+     span{
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+        padding-bottom: 15px;
+    }
+    }
+    
+@media only screen and (max-width: 414px){
+    header {
+        width: 117%;
+        margin-top: 100px;
+        margin-left: -47px;
+    }
+    span{
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+        padding-bottom: 15px;
+    }
+    }
+    @media only screen and (max-width: 375px){
+    header {
+        width: 137%;
+        margin-top: 100px;
+        margin-left: -69px;
+    }
+    span{
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+        padding-bottom: 15px;
+    }
+}
